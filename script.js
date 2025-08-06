@@ -17,4 +17,14 @@ let aluno1 ={
    anoletivo:'Ensino Medio'
    materiasfavoritas: ['Fisica','Matemática','programação']
 }
-console.log(aluno1.nome
+
+console.log(aluno1.nome);
+console.log(aluno1.idade);
+console.log(aluno1.materiasFavoritas);
+console.log(aluno1.materiasFavorias[1]);
+
+const objeto = document.querySelector('aluno');
+objeto.textContent = aluno1.nome;
+objeto.textContent = aluno1.idade;
+objeto.textContent = aluno1.materiasFavoritas[1];
+
